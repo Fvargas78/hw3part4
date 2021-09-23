@@ -1,0 +1,91 @@
+.ui-tooltip {
+    padding: 8px;
+    position: absolute;
+    box-shadow: 0 0 5px #aaa;
+    background-color: #ffffff;
+}
+
+/*Prevents the tooltip from also appearing at the bottom of the page*/
+.ui-helper-hidden-accessible {
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+label {
+    color: #006bb3;
+    font-weight: bold;
+}
+
+#content {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #006bb3;
+    border-radius: 5px;
+    width: 500px;
+}
+
+#sales_name {
+    margin: 10px;
+  }
+
+#sales_input {
+    margin: 10px;
+    padding: 5px;
+}
+#results {
+    border: 1px solid black;
+}
+
+textarea {
+    text-align: right;
+    resize: none;
+    width: 290px;
+}
+
+.error {
+    margin-left: 5px;
+    font-size: 14px;
+    color: red;
+}
+
+/* Part 3 Table*/
+#temperature_content {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #006bb3;
+    border-radius: 5px;
+    width: 300px;
+}
+
+/* Part 4 Table*/
+#multiplication {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #006bb3;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.submit {
+    background-color: #006bb3;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #006bb3;
+    color: white;
+}
+
+#reset {
+    background-color: #9e9d9b;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #9e9d9b;
+    color: white;
+}
