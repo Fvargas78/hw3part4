@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Student webpage containing homework 3, part 4.">
+    <title>Homework 3: Part 4</title>
+    <link rel="stylesheet" href="style3.css"/>
+    <link rel="stylesheet" href="style3_part4.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,400&display=swap" rel="stylesheet">
+    <script src="hm3p4.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+
+</head>
+<body>
+
+<h1>CNIT 133 Homework 3 - Functions: Part 4</h1>
+<ul class = "parts">
+    <li><a href = "hm3p1.html">Part 1</a></li>
+    <li><a href = "hm3p2.html">Part 2</a></li>
+    <li><a href = "hm3p3.html">Part 3</a></li>
+    <li><a href = "hm3p4.html">Part 4</a></li>
+</ul>
+
+    <div id="links">
+                 <a class="active" href="https://fvargas78.github.io/hw1/">Main</a>
+                 <a class="active" href="https://fvargas78.github.io/hw2/">Homework2</a>
+                 <a class="active" href="https://fvargas78.github.io/hw3/">Homework3</a>
+                 <a class="active" href="https://fvargas78.github.io/hw4/">Homework4</a>
+                 <a class="active" href="https://fvargas78.github.io/hw5/">Homework5</a>
+                 <a class="active" href="https://fvargas78.github.io/hw6/">Homework6</a>
+                 <a class="active" href="https://fvargas78.github.io/hw7/">Homework7</a>
+                 <a class="active" href="https://fvargas78.github.io/hw8/">Homework8</a>
+</div>
+
+ <h3>Test Your Multiplication:</h3>
+
+    <table id="multiplication">
+        <tr>
+            <td><label>Question:</label></td>
+            <td id="question">How much is <span id="integer1"></span> times <span id="integer2"></span>?</td>
+        </tr>
+        <tr>
+            <td><label for="answer">Answer:</label></td>
+            <td>
+                <form id="answer_form">
+                    <input type="text" id="answer" name="answer" class="tooltip"
+                           title="Type your answer to the problem."/>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" class="submit" value="Submit" onclick="process()" /></td>
+            <td><input type="button" id="reset" value="Reset" onclick="reset()"/></td>
+        </tr>
+        <tr>
+            <td><label>Comment:</label></td>
+            <td><span id="comment"></span></td>
+        </tr>
+    </table>
+</body>
+</html>
